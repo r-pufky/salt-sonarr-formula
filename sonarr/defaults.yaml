@@ -1,0 +1,13 @@
+sonarr:
+  binary_archive: https://download.sonarr.tv/v2/master/mono/NzbDrone.master.tar.gz
+  pkg_dependencies:
+    - mono-runtime
+    - libmono-cil-dev
+
+  user: sonarr
+
+  install_dir: /opt/sonarr
+  data_dir: /var/lib/sonarr
+
+  mono_bin: /usr/bin/mono
+  sonarr_bin: /opt/sonarr/NzbDrone.exe

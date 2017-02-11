@@ -1,0 +1,3 @@
+{%- import_yaml "sonarr/defaults.yaml" as defaults -%}
+
+{%- set sonarr = salt['pillar.get']('sonarr:lookup', defaults.sonarr, merge=True) -%}
