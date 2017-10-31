@@ -70,4 +70,5 @@ sonarr-restart:
     - require:
       - service: sonarr-service
     - watch:
-      - service: sonarr-service
+      - archive: sonarr-binary-package
+      - file: sonarr-systemd-file
