@@ -3,7 +3,7 @@ sonarr:
   pkg_dependencies:
     - mono-runtime
     - libmono-cil-dev
-    - libmediainfo0
+    - libmediainfo0v5
 
   user: sonarr
 
