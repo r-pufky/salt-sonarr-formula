@@ -1,0 +1,6 @@
+# Lookup values are set in defaults.yaml and may be overridden here.
+sonarr:
+  lookup:
+    user: sonarr
+    group: media
+    data_dir: /var/lib/sonarr
