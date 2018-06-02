@@ -3,6 +3,7 @@
 sonarr_ppa_repo:
   pkgrepo.managed:
     - name: deb http://apt.sonarr.tv/ master main
+    - file: /etc/apt/sources.list.d/sonarr.list
     - keyid: A236C58F409091A18ACA53CBEBFF6B99D9B78493
     - keyserver: keyserver.ubuntu.com
     - require_in:
